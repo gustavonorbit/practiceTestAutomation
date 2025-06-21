@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 #Web driver path
-path = "C:\\Users\\Home\\Desktop\\newProjectAutomationTest\\chromedriver-win64\\chromedriver.exe"
+path = "D:\\newProjectAutomationTest\\chromedriver-win64\\chromedriver.exe"
 
 
 # Crete service instance with path of chromedriver
