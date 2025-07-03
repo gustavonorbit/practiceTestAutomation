@@ -8,7 +8,7 @@ import time
 path = "D:\\newProjectAutomationTest\\chromedriver-win64\\chromedriver.exe"
 #Inicialize service of Chrome
 service = Service(path)
-#Inicialize Chrome with service 
+#Inicialize Chrome with service
 driver = Chrome(service=service)
 #Open Website
 driver.get("https://thetestingworld.com")
