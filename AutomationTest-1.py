@@ -29,10 +29,10 @@ driver.find_element(By.NAME,"fld_username").send_keys("testerQA")
 driver.find_element(By.XPATH,"//input[@name='fld_email']").send_keys("testerQAemail@gmail.com")
 driver.find_element(By.NAME,"fld_password").send_keys("pass123@")
 driver.find_element(By.NAME,"fld_cpassword").send_keys("pass123@")
-driver.find_element(By.NAME,"dob").send_keys("19/11/1997")
+driver.find_element(By.NAME,"dob").send_keys("20/11/1999")
 driver.find_element(By.NAME,"terms").click()
-driver.find_element(By.NAME,"phone").send_keys("61991074681")
-driver.find_element(By.NAME,"address").send_keys("qr 8 cj J cs 14 Setor Sul")
+driver.find_element(By.NAME,"phone").send_keys("61992044560")
+driver.find_element(By.NAME,"address").send_keys("qr 1 cs test")
 
 #Time for wait load page
 time.sleep(2)
@@ -62,7 +62,7 @@ select4 = Select(select_element4)
 select4.select_by_value("8597")
 
 #Enter to zipcode
-driver.find_element(By.NAME,"zip").send_keys("72415410")
+driver.find_element(By.NAME,"zip").send_keys("72415420")
 
 #click to submmit
 driver.find_element(By.XPATH,"//input[@value='Sign up']").click()
